@@ -410,9 +410,9 @@
 
         const ALLOWED_FILE_EXTENSIONS = [
             '.zip', '.rar', '.7z', '.pdf', '.doc', '.docx', 
-            '.xls', '.xlsx', '.ppt', '.pptx', '.txt', '.apk'
+            '.xls', '.xlsx', '.ppt', '.pptx', '.txt', '.xml' , '.sh', '.apk'
         ];
-        const ALLOWED_MEDIA_EXTENSIONS = ['.jpg', '.jpeg', '.mp4'];
+        const ALLOWED_MEDIA_EXTENSIONS = ['.jpg', '.jpeg', '.png' , '.mp4'];
 
         function getFileExtension(filename) {
             return '.' + filename.split('.').pop().toLowerCase();
